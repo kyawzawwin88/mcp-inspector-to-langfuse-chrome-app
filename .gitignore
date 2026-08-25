@@ -7,3 +7,7 @@ dist/
 _bmad/
 _bmad-output/implementation-artifacts/
 testdata/
+.env
+.venv
+.vscode/
+__pycache__
