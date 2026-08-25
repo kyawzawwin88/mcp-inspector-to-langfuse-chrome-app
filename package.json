@@ -1,0 +1,16 @@
+{
+  "name": "mcp-inspector-to-langfuse-chrome-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && cp manifest.json converter.html converter.css dist/",
+    "test": "tsx --test src/convert.test.ts"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.4",
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

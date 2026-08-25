@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MCP Inspector → Langfuse Config</title>
+    <link rel="stylesheet" href="./converter.css" />
+  </head>
+  <body>
+    <main class="panes">
+      <label class="pane">
+        <span class="pane-label">Inspector dump</span>
+        <textarea
+          id="input"
+          spellcheck="false"
+          placeholder="Paste MCP Inspector protocol JSON…"
+        ></textarea>
+      </label>
+      <label class="pane">
+        <span class="pane-label">Langfuse config</span>
+        <textarea id="output" spellcheck="false" readonly></textarea>
+      </label>
+    </main>
+    <script type="module" src="./ui.js"></script>
+  </body>
+</html>

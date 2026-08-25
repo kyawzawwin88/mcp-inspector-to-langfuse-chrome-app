@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "MCP Inspector to Langfuse Config",
+  "version": "1.0.0",
+  "description": "Convert MCP Inspector protocol dumps into Langfuse prompt config (tools + tool_choice).",
+  "action": {
+    "default_title": "Open converter"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
