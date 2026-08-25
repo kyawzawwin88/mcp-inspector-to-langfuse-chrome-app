@@ -57,3 +57,7 @@ python3 scripts/import_langfuse_tools.py testdata/converted_tools.json
 ```
 
 After import, open **Playground → Tools** and attach the saved tools to any prompt run.
+
+## Support
+
+If you find this extension useful, consider [buying me a coffee](https://buymeacoffee.com/kyawzawwin)! ☕
