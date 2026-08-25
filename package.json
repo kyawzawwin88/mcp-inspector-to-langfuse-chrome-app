@@ -4,7 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc && cp manifest.json converter.html converter.css dist/",
+    "prebuild": "mkdir -p dist",
+    "build": "tsc && node scripts/build.js",
+    "clean": "rm -rf dist mcp-inspector-to-langfuse-v*.zip",
+    "typecheck": "tsc --noEmit",
     "test": "tsx --test src/convert.test.ts"
   },
   "devDependencies": {

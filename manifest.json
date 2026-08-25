@@ -4,7 +4,19 @@
   "version": "1.0.0",
   "description": "Convert MCP Inspector protocol dumps into Langfuse prompt config (tools + tool_choice).",
   "action": {
-    "default_title": "Open converter"
+    "default_title": "Open converter",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "background": {
     "service_worker": "background.js",

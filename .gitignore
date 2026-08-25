@@ -1,5 +1,6 @@
 node_modules/
 dist/
+mcp-inspector-to-langfuse-v*.zip
 .DS_Store
 .cursor/
 .cursorindexingignore
