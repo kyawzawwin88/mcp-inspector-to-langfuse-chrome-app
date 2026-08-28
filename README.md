@@ -2,6 +2,8 @@
 
 Convert MCP Inspector protocol dumps into Langfuse Playground tools, then import them with the Python script.
 
+Available in chrome app store: [https://chromewebstore.google.com/detail/jhdndobonogpngfmenhggjidmlpjpglg?utm_source=item-share-cb]
+
 ## Chrome extension
 
 ### Icons
